@@ -4,7 +4,7 @@ void setup() {
     pinMode(D0, OUTPUT);
     digitalWrite(D0, LOW);
     // register the Spark functions
-    Particle.function("updateLED", updateLED);
+    Spark.function("updateLED", updateLED); //name has stayed the same
 }
 void loop() {
     
